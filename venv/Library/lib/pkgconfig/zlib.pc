@@ -1,0 +1,13 @@
+prefix=E:/BE10X/RAG/venv/Library
+exec_prefix=E:/BE10X/RAG/venv/Library
+libdir=E:/BE10X/RAG/venv/Library/lib
+sharedlibdir=E:/BE10X/RAG/venv/Library/lib
+includedir=E:/BE10X/RAG/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
